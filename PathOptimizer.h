@@ -1,3 +1,7 @@
+// Author: Erkhembileg Ariunbold
+// Project: ArchiveManager
+// Date: 2025.06.06
+
 #pragma once
 #include <vector>
 #include <string>

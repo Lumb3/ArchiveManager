@@ -1,3 +1,7 @@
+// Author: Erkhembileg Ariunbold
+// Project: ArchiveManager
+// Date: 2025.06.06
+
 #include "EnhancedUnZipPanel.h"
 
 wxBEGIN_EVENT_TABLE(EnhancedUnZipPanel, wxPanel)

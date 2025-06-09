@@ -1,6 +1,6 @@
 # 📦 Archive Manager (macOS Desktop App)
 
-A macOS desktop application implementing Dijkstra's algorithm for efficient file path resolution when creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
+A macOS desktop application implementing **Dijkstra's** algorithm for efficient file path resolution when creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
 
 ---
 

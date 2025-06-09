@@ -28,7 +28,7 @@ A macOS desktop application implementing Dijkstra's algorithm for efficient file
 
 ## ⬇️ Download
 
-> ⚠️ This app requires local compilation and is **only compatible with macOS** due to licensing limitations.
+> ⚠️ This app requires local compilation and is **only compatible with macOS** due to licensing limitations. Therefore, Option 1 will only show the UI without operation
 
 Download the prebuilt app to preview the user interface:  
 🔗 [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
@@ -45,3 +45,14 @@ Download the prebuilt app to preview the user interface:
 3. Lauch the application
    ```bash
    open ~/Applications/ArchiveManager.app
+## Option 2: Build from Source (Need a compiler and wxWidgets)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Lumb3/ArchiveManager.git
+   cd ArchiveManager
+2. Build the project (requires wxWidgets):
+   ```bash
+   make  # or follow build instructions in the repository
+3. Run the application:
+   ```bash
+   ./ArchiveManager

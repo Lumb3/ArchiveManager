@@ -42,14 +42,12 @@ Download the prebuilt app to preview the user interface:
 2. Unzip the file:
    ```bash
    unzip ArchiveManager.zip -d ~/Applications/
-   When prompted about __MACOSX/._ArchiveManager.app, type A then press Enter
+3. Launch the application:
+   ```bash
+     open ~/Applications/ArchiveManager.app
 
-Launch the application:
+### Option 2: Build from Source
 
-bash
-open ~/Applications/ArchiveManager.app
-Option 2: Build from Source
-bash
 # 1. Clone the repository
 git clone https://github.com/Lumb3/ArchiveManager.git
 cd ArchiveManager

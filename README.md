@@ -37,8 +37,11 @@ Download the prebuilt app to preview the user interface:
 
 ## 🚀 Quick Start (macOS only)
 
-### Option 1: Use Prebuilt App
+### Option 1: Use Prebuilt App 
 1. Download [ArchiveManager.zip](https://github.com/user-attachments/files/20624900/ArchiveManager.zip)
 2. Unzip the file:
    ```bash
    unzip ArchiveManager.zip -d ~/Applications/
+3. Lauch the application
+   ```bash
+   open ~/Applications/ArchiveManager.app

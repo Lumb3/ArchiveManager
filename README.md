@@ -1,3 +1,6 @@
+> 🧠 **Note on Algorithms Used:**  
+> This project utilizes a variation of **Dijkstra’s algorithm** (inspired by greedy selection and minimum spanning tree techniques) to compute optimal file ordering for compression. Although the algorithm implementation resembles Dijkstra, it is functionally closer to **Prim’s algorithm** for MST generation — helping improve archive efficiency.
+
 # 📦 Archive Manager (macOS Desktop App)
 
 A macOS desktop application implementing **Dijkstra's** algorithm for efficient file path resolution when creating and extracting ZIP archives — built with **C++** and **wxWidgets**.
